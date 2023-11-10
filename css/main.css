@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+/*navbar*/
+.navbar{
+    background-color: black;
+}
+.navbar .logo{
+    float: left;
+    
+}
+.logo img{
+    width: 50%;
+    margin-top: 7px;
+
+}
+.navbar .list{
+    float: right;
+}
+.navbar .list ul{
+    list-style-type: none;
+    margin-top: 8px;
+}
+.navbar .list ul a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.navbar .list li{
+    float: right;
+}
+
+/*portfolio*/
+
+.portfolio{
+    text-align: center;
+    background-color: rgb(233, 232, 232);
+
+}
+.portfolio h2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.portfolio p{
+    padding-bottom: 40px;
+}
+.portfolio .item{
+    float: left;
+    width: 33.33%;
+    padding-right:20px ;
+    
+}
+.portfolio .item img{
+    width: 100%;
+    display: block;
+}
+.portfolio .item h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+.portfolio .item p{
+    padding-bottom: 30px;
+    font-size: 12px;
+    font-style: italic;
+}
